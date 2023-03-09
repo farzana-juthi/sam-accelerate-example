@@ -2,6 +2,8 @@
 
 If you are a developer, you know testing is very important for application development. But integration testing in cloud is really a concern. As deployment time plays a vital role in development, many of us try to do mock test before deploy it into cloud. There are some frameworks for doing that. But in that case integration testing is not possible. If you are a SAM user, you can speed up your development with SAM accelerate. In this blog post, you will see an example of lambda layers and its implementation in sam accelerate.  
 
+
+
 <img width="1115" alt="image_1" src="https://user-images.githubusercontent.com/63281366/223938791-5ae4d30e-4379-4edb-9658-985635ec186e.png">
 
 
@@ -79,6 +81,7 @@ If you are a developer, you know testing is very important for application devel
   <img width="736" alt="API" src="https://user-images.githubusercontent.com/63281366/223940899-de43da15-25ee-4884-85c1-e164537668e7.png">
   
 - After clicking on this API, you will see the table name what is passed through layer.
+
   <img width="762" alt="output" src="https://user-images.githubusercontent.com/63281366/223940975-dc276e98-f942-4514-9941-6fea47575fe7.png">
 
 If you change anything in layers or anything into your template file, you will see that change into cloud. So you can test your application with real aws resources. If you have any question please let me know in comment.
