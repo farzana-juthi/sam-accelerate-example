@@ -15,7 +15,7 @@ If you are a developer, you know testing is very important for application devel
 
 ### Local Development
 
-- After installation done, you have to pull the code from git repository [(HTTPS link)](https://github.com/farzana-juthi/authentication.git)
+- After installation done, you have to pull the code from git repository [(HTTPS link)](https://github.com/farzana-juthi/sam-accelerate-example.git)
 - Then go to project directory by using following command:
   ```
     cd <your folder name>
